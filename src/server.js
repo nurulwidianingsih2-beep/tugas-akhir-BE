@@ -1,0 +1,6 @@
+// Menjalankan API secara lokal
+require('dotenv').config();
+const app = require('./app');
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`API berjalan di http://localhost:${port}`));

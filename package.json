@@ -1,0 +1,17 @@
+{
+  "name": "tugas-mahasiswa-api",
+  "version": "1.0.0",
+  "description": "REST API Sistem Pengolahan Data Tugas Mahasiswa - Tugas Akhir Learning Labs Backend Development",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "db:init": "node src/init-db.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
